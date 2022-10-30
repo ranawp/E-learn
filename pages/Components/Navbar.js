@@ -4,7 +4,7 @@ import styles from "../../styles/navbar.module.css";
 export default function Navbar() {
     return (
         <>
-            <div className="flex justify-around items-center h-16  bg-gray-900 text-white ">
+            <div className=" flex justify-around items-center h-16  bg-gray-900 text-white ">
                 <h2 className="text-rose-500 cursor-pointer">E-Learn</h2>
                 <div className="flex items-center list-none	space-x-6 ">
                     <li><a href="" className="   transform hover:scale-125 transition ">Home</a></li>
