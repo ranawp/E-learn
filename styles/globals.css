@@ -29,3 +29,21 @@ a {
     background: black;
   }
 }
+
+.menu-items.li:hover {
+  background-color: none;
+  color: red;
+  margin-left: 5rem;
+}
+
+.primary-color {
+  color: #FF2359;
+}
+
+/* .primary-button {
+  background-color: #FF2359;
+} */
+
+.primary-button {
+  @apply px-5 py-1 rounded-l-2xl rounded-br-2xl;
+}

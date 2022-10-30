@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Navbar from './Components/Navbar'
+import Home from './Home'
 
-export default function Home() {
+export default function index() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Home></Home>
     </div>
   )
 }
