@@ -1,3 +1,4 @@
+import Brandnames from "./Components/Brandnames";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <>
             <Navbar />
             <Header></Header>
+            <Brandnames></Brandnames>
         </>
     );
 };

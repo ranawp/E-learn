@@ -14,7 +14,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center space-x-4">
                     <button>Login</button>
-                    <button className="primary-button font-medium text-gray-900 bg-gray-100">Sign Up</button>
+                    <button className="primary-border font-medium text-gray-900 bg-gray-100">Sign Up</button>
                 </div>
 
             </div>
