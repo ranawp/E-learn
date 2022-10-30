@@ -3,7 +3,7 @@ import React from 'react';
 
 const Courses = () => {
     return (
-        <div className='bg-rose-50 pt-10'>
+        <div className='bg-rose-50 py-10'>
             <div className=' max-w-4xl mx-auto '>
                 <h2 className='font-bold text-3xl text-center'>We Provide Many Types of Course</h2>
                 <p className='text-center mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas inventore dolore!</p>
