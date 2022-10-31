@@ -21,7 +21,7 @@ const login = () => {
                         <input required className='bg-gray-100 border-2 focus:outline-none ' type="text" /> <br />
                         <button className=' duration-500 primary-border mt-5 text-gray-100 bg-rose-500 hover:bg-gray-200 hover:text-gray-900 hover:ring-2 hover:ring-rose-500  transition-all'>Login</button> <br />
                         <div className='mt-2'>
-                            <span>Don't have an account?</span> <span> <Link href="/signup">Sign up</Link> </span>
+                            <span>Dont have an account?</span> <span> <Link href="/signup">Sign up</Link> </span>
                         </div>
                     </div>
                 </div>
