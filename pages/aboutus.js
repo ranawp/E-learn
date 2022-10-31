@@ -1,19 +1,27 @@
 import Image from 'next/image';
 import React from 'react';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
-const Mentors = () => {
+const aboutus = () => {
     return (
-        <div className='bg-gray-900 h-full px-2 lg:px-0 pb-10'>
-            <div className="my-20 max-w-4xl mx-auto  grid grid-cols-2 pt-16">
-                <div className=''>
-                    <h1 className='text-gray-100 text-3xl font-bold'>Why Online <br /> Learning Menthod </h1>
+        <div>
+            <Navbar></Navbar>
+            <h3 className='mt-10 text-center font-bold text-2xl'>About Us</h3>
+            <div className='grid md:grid-cols-2 mt-10 max-w-4xl mx-auto '>
+                <div>
+                    <Image src='/teams.jpg' width={400} height={400} alt="student-image" className='transform hover:scale-105 duration-500 rounded-bl-lg rounded-tr-lg '></Image>
                 </div>
                 <div>
-                    <p className='text-gray-100 leading-7 '>We provide you world class mentor and lifetime support so that you can growth your carrer in right way. </p>
-                    <button className='duration-500 primary-border mt-5 text-gray-100 bg-rose-500 hover:bg-gray-200 hover:text-gray-900 hover:ring-2 hover:ring-rose-500  transition-all '>Get Started</button>
+                    <h2 className='font-bold'>Our Misson</h2>
+                    <p>We will support our socity to accheive thier goal.Our company will provide world class service to client</p>
+
+                    <h2 className='font-bold mt-5'>Our Vison</h2>
+                    <p>Everybody must be know about ourselves in the world. We motivate to people get success.</p>
                 </div>
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 mx-auto lg:ml-20 lg:mr-20 '>
+            <h1 className='mt-16 text-center text-2xl font-bold'>Our Team Members</h1>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 mx-auto lg:ml-20 lg:mr-20 mt-10 mb-16'>
                 <div className='bg-gray-50 w-48 p-2 rounded-bl-lg rounded-tr-lg transform hover:scale-105 duration-500'>
                     <Image src='/mentor1.jpg' width={300} height={350} alt="student-image" className='rounded-bl-lg rounded-tr-lg '></Image>
                     <div>
@@ -36,15 +44,16 @@ const Mentors = () => {
                     </div>
                 </div>
                 <div className='bg-gray-50 w-48 p-2 rounded-bl-lg rounded-tr-lg transform hover:scale-105 duration-500'>
-                    <Image src='/menor4.jpeg' width={250} height={350} alt="student-image" className='rounded-bl-lg rounded-tr-lg'></Image>
+                    <Image src='/menor4.jpeg' width={280} height={360} alt="student-image" className='rounded-bl-lg rounded-tr-lg'></Image>
                     <div>
                         <h3 className='text-lg font-bold'>Jons Milton</h3>
                         <p>Brand ambassador </p>
                     </div>
                 </div>
             </div>
-        </div>
+            <Footer></Footer>
+        </div >
     );
 };
 
-export default Mentors;
+export default aboutus;

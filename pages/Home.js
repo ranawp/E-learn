@@ -1,6 +1,7 @@
 import Brandnames from "./Components/Brandnames";
 import Courses from "./Components/Courses";
 import CoursesBooking from "./Components/CoursesBooking";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Mentors from "./Components/Mentors";
 import Navbar from "./Components/Navbar";
@@ -20,7 +21,7 @@ const Home = () => {
             <Mentors></Mentors>
             <CoursesBooking></CoursesBooking>
             <Newsteller></Newsteller>
-
+            <Footer />
         </>
     );
 };
