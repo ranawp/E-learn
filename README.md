@@ -10,11 +10,11 @@
 * Image collection, Google and pixel.com. 
 
 ## Features : 
-* 1- Tech services companies can provide their all courses for selling. 
-* 2- User can login and signup. (I just Completed UI design) 
-* 3-  User can read story. 
-* 4- Eye catching UI design. 
+* Tech services companies can provide their all courses for selling. 
+* User can login and signup. (I just Completed UI design) 
+* User can read story. 
+* Eye catching UI design. 
 
-
+## Links
 * GitHub Link: https://github.com/ranawp/E-learn 
 * Website live link: https://ee-learnn.netlify.app/ 
